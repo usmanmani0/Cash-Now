@@ -1,0 +1,72 @@
+.pageT_container {
+  margin-top: 50px;
+}
+.pagetwo_wrapper {
+  width: 92%;
+  height: 165px;
+  background-color: #4670b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -3px !important;
+}
+
+.pagetwo_nav_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagetwo_nav_txt {
+  font-size: 35px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.hr_line_pageT {
+  width: 92%;
+  margin-top: 50px;
+}
+
+.pageT_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageT_title_txt {
+  font-size: 45px;
+  padding-top: 100px;
+  text-align: left;
+}
+
+.pageT_heading {
+  padding-top: 52px;
+}
+
+.pageT_heading_txt {
+  font-size: 35px;
+}
+.pageT_paragraph_icon {
+  display: flex;
+}
+.pageT_icon {
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 26px;
+  margin-right: 26px;
+}
+.pageT_paragraph_txt {
+  font-size: 30px;
+}
+.pageT_paragraph_txt_2{
+  font-size: 30px;
+}
+
+.pageT_paragraph_txt_2_imp{
+  color: rgb(24, 24, 226);
+}
+
+.hrlin-mb{
+  margin-bottom: 50px;
+}
