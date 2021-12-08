@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Step3_form_section_wrapper {
+  width: 580px;
+  margin: auto;
+  background-color: #eaeaea;
+}
+.Step3_form_text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  padding-top: 30px;
+}
+.Step3_feilds_wrapper {
+  padding: 20px 50px 30px 50px;
+}
+.Step3_input_field {
+  width: 100%;
+  height: 44px;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+}
+.Step3_input_label {
+  font-size: 18px;
+  color: #000000;
+}
+input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+}
+.Step3_Telefoonnummer {
+  width: 100%;
+  border: 1px solid #707070;
+  height: 44px;
+  background-color: white;
+}
+.step3_btn {
+  background-color: #39be4d;
+  height: 52px;
+  width: 211px;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+.Step3_btn_arrow {
+  font-size: 14px !important;
+}
+.step3_tag {
+  font-size: 22px;
+  line-height: 26px;
+  color: #b12121;
+}
+.step3_heading {
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .Step3_input_field {
+    width: 100% !important;
+    height: 44px;
+    background-color: #ffffff;
+    border: 1px solid #707070;
+  }
+  .Step3_form_section_wrapper {
+    width: 100%;
+    margin: auto;
+    background-color: #eaeaea;
+  }
+}
+/* @media screen and (max-width: 470px) {
+  .Step3_feilds_wrapper {
+    width: 90%;
+    margin: auto;
+  }
+} */
+@media screen and (max-width: 510px) {
+  .mobile_view {
+    flex-direction: column;
+  }
+}
