@@ -1,0 +1,18 @@
+.pageFour_para_txt{
+    font-size: 28px;
+    line-height: 3;
+}
+
+.pageFour_img_para_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pageFour_para_txt_1{
+    font-size: 20px;
+
+}
+
+.pageFour_heading_txt{
+    font-size: 30px;
+}
