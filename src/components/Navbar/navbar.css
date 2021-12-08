@@ -1,0 +1,19 @@
+.navbar_container {
+  width: 100%;
+  height: 107px;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_txt {
+  font-size: 24px;
+  color: #707070;
+}

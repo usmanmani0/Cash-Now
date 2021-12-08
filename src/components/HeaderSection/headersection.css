@@ -1,0 +1,141 @@
+.headersection_container {
+  background-color: #5f5e5e;
+  width: 100%;
+  height: 354px;
+}
+.headersection_wrapper {
+  height: 354px;
+}
+.headersection_col_1 {
+  height: 100%;
+  
+  margin-left: -12px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headersection_col_2 {
+  height: 100%;
+  width: 542px;
+  
+  margin-left: -24px !important;
+}
+
+.headersection_col_3 {
+  height: 100%;
+ 
+  margin-left: -123px !important;
+}
+.headersection_txt {
+  font-size: 40px;
+  color: #ffffff;
+}
+.uline {
+  text-decoration: underline;
+}
+
+.coins_img {
+  height: 354px;
+  width: 65%;
+}
+.home_loop_img {
+  height: 354px;
+  width: 100%;
+}
+.hs_search_form_wrapper1 {
+  height: 363px;
+  width: 550px;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hs_search_form_wrapper2 {
+    height: 363px;
+    width: 550px;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+
+.headersection_form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 27px;
+}
+.serachbar_hs {
+  height: 58px;
+  width: 300px;
+  background-color: #ffffff;
+}
+.inpt_form_hs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input_group {
+    width: 380px;
+    height: 78px;
+  display: flex;
+  gap: 1rem;
+  border: 1px solid gray;
+  padding: 1rem 0.5rem;
+  background-color: #ffffff;
+}
+.input1,
+.input2 {
+  border: none;
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: inherit;
+  outline: none;
+  
+}
+
+.input2{
+    border-left: 2px solid gray;
+    padding-left: .5rem;
+}
+
+.input1 {
+
+  background: url('../../assets/images/LocationIcon.png') no-repeat;
+  background-position: 2px -1px;
+  background-size: 31px;
+  padding-left: 50px;
+ 
+}
+.sb_btn_hs {
+  width: 300px;
+  height: 78px;
+  margin-top: 39px;
+  border: none;
+  background-color: #39be4d;
+  font-size: 25px;
+  color: #ffffff;
+}
+.tick{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.title_txt_hs{
+ font-size: 35px; 
+ font-weight: bold;
+ padding-left: 20px;
+ 
+}
+
+.items_txt_hs{
+    font-size: 35px;
+    padding-left: 20px;
+}
