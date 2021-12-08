@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.stap_4_wrapper{
+  margin-bottom: 50px;
+}
 .Step4_form_section_wrapper {
   width: 580px;
   margin: auto;

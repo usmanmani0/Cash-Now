@@ -1,12 +1,12 @@
 import React from "react";
 import Home from "./pages";
 import "./App.css";
-import Step2 from "./components/Forms/Step2";
+import Form from "./pages/Form";
 function App() {
   return (
     <>
-      {/* <Home /> */}
-      <Step2 />
+      <Home />
+      {/* <Form /> */}
     </>
   );
 }
