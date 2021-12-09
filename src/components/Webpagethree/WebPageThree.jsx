@@ -10,7 +10,7 @@ const WebPageThree = () => {
     <Container className="pageThree_container">
       <Row>
         <Col className="pageT_title">
-          <h3 className="pageT_title_txt">
+          <h3 className="pageT_title_txt pg_three_tt">
             Verkoop jouw huis in Vlaanderen SNEL
           </h3>
         </Col>
@@ -18,7 +18,7 @@ const WebPageThree = () => {
 
       <Row className="pageThree_paragraph_wrapper">
         <Col>
-          <p className="pageT_paragraph_txt">
+          <p className="pageT_paragraph_txt pg_three_ptxt">
             Snell verkoop heeft jaren ervaring in het opkopen van huizen,
             appartementen en gronden. Onze 3 stappen koop proces maakt het kou
             gemakkelijk. Verkoop jouw huis in Vlaanderen op de gemakkelijkste
@@ -31,7 +31,7 @@ const WebPageThree = () => {
       <Row className="pageThree_cards_wrapper">
         <Col>
           <div className="pageThree_card_1">
-            <Image className="pageT_icon img_cards" src={InboxIcon} rounded />
+            <Image  src={InboxIcon} rounded />
             <h3 className="pageThree_card_1_heading">
               Stap 1 - contacteer ons!
             </h3>
@@ -48,7 +48,7 @@ const WebPageThree = () => {
         </Col>
         <Col>
           <div className="pageThree_card_1">
-            <Image className="pageT_icon img_cards" src={handIcon} rounded />
+            <Image  src={handIcon} rounded />
             <h3 className="pageThree_card_2_heading">
               Stap 2 - ontvang een Correct bod met voorschot.
             </h3>
@@ -60,7 +60,7 @@ const WebPageThree = () => {
         </Col>
         <Col>
           <div className="pageThree_card_1">
-            <Image className="pageT_icon img_cards" src={SoldIcon} rounded />
+            <Image  src={SoldIcon} rounded />
             <h3 className="pageThree_card_3_heading">Stap 3 - verkocht.</h3>
             <p className="pageThree_card_1_para_txt">
               U bepaald zelf de datum <br /> Van effectieve verkoop. <br /> Geen kosten, geen

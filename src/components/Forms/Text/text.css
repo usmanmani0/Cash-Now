@@ -1,17 +1,10 @@
-* {
-  font-family: "Neue Helvetica Italic";
-}
-@font-face {
-  font-family: "Neue Helvetica Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Neue Helvetica Italic"),
-    url("../../../assets/fonts/Helvetica\ Neue\ LT\ 63\ Medium\ Extended.woff")
-      format("woff");
-}
 .text_Wrapper {
   width: 90%;
   margin: auto;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .text_section_heading {
   font-size: 45px;

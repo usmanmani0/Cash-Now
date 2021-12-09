@@ -15,13 +15,13 @@ const WebPageFour = () => {
 
       <Row>
         <Col className="pageT_title">
-          <h3 className="pageT_title_txt">TOP opkoper Vlaanderenv</h3>
+          <h3 className="pageT_title_txt pf_tt">TOP opkoper Vlaanderenv</h3>
         </Col>
       </Row>
 
       <Row>
         <Col>
-          <p className="pageFour_para_txt">
+          <p className="pageFour_para_txt pf_ptxt">
             Wens je graag samen te werken met en betrouwbaar, transparante en
             ervaren opkoper? Dan kunt u bij ons, snelle verkoop terecht!
           </p>

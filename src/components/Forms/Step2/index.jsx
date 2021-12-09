@@ -1,8 +1,5 @@
 import React from 'react'
 import "../Step2/step2.css"
-import Step3 from '../Step3'
-import Step4 from '../Step4'
-import Step5 from "../Step5"
 import FormBottomText from "../Text"
 import { Navbar } from "react-bootstrap";
 import Header from "../../Header/Header";
@@ -14,7 +11,6 @@ import { Link } from "react-router-dom"
 const Step2 = () => {
     return (
         <>
-
             <div className="stap_2_wrapper">
                 <div className="justify-content-center mt-5">
                     <div className="step2_heading text-center">
@@ -71,9 +67,7 @@ const Step2 = () => {
                                 <i class="fas fa-chevron-right btn_arrow"></i>
                             </button></Link>
                         </div>
-                        {/* <div className='mt-5'>
-                            <FormBottomText />
-                        </div> */}
+
                     </div>
                 </div>
             </div>

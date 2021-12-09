@@ -5,10 +5,10 @@
 }
 .headersection_wrapper {
   height: 354px;
+  width: 100%;
 }
 .headersection_col_1 {
   height: 100%;
-  
   margin-left: -12px !important;
   display: flex;
   justify-content: center;
@@ -17,14 +17,13 @@
 
 .headersection_col_2 {
   height: 100%;
-  width: 542px;
-  
+  width: 100%;
   margin-left: -24px !important;
 }
 
 .headersection_col_3 {
   height: 100%;
- 
+  width: 100%;
   margin-left: -123px !important;
 }
 .headersection_txt {
@@ -36,12 +35,14 @@
 }
 
 .coins_img {
-  height: 354px;
+  height: 100%;
   width: 65%;
+  object-fit: fit;
 }
 .home_loop_img {
-  height: 354px;
-  width: 100%;
+  height: 100%;
+  width: 65%;
+  object-fit: fit;
 }
 .hs_search_form_wrapper1 {
   height: 363px;
@@ -53,15 +54,14 @@
   flex-direction: column;
 }
 .hs_search_form_wrapper2 {
-    height: 363px;
-    width: 550px;
-    background-color: #eaeaea;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
+  height: 363px;
+  width: 550px;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .headersection_form_container {
   display: flex;
@@ -81,8 +81,8 @@
   align-items: center;
 }
 .input_group {
-    width: 380px;
-    height: 78px;
+  width: 380px;
+  height: 78px;
   display: flex;
   gap: 1rem;
   border: 1px solid gray;
@@ -96,21 +96,18 @@
   font-size: 1.2rem;
   background-color: inherit;
   outline: none;
-  
 }
 
-.input2{
-    border-left: 2px solid gray;
-    padding-left: .5rem;
+.input2 {
+  border-left: 2px solid gray;
+  padding-left: 0.5rem;
 }
 
 .input1 {
-
-  background: url('../../assets/images/LocationIcon.png') no-repeat;
+  background: url("../../assets/images/LocationIcon.png") no-repeat;
   background-position: 2px -1px;
   background-size: 31px;
   padding-left: 50px;
- 
 }
 .sb_btn_hs {
   width: 300px;
@@ -121,21 +118,298 @@
   font-size: 25px;
   color: #ffffff;
 }
-.tick{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.tick {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title_txt_hs {
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.items_txt_hs {
+  font-size: 35px;
+  padding-left: 20px;
+}
+.tick_img{
+  height: 38px;
+  width: 51px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .headersection_wrapper {
+    height: auto;
+  }
+  .headersection_container {
+    width: 100%;
+    height: auto;
+  }
+  .headersection_col_1 {
+    height: 100%;
+    margin-left: 0px !important;
     
-}
-
-.title_txt_hs{
- font-size: 35px; 
- font-weight: bold;
- padding-left: 20px;
- 
-}
-
-.items_txt_hs{
-    font-size: 35px;
+   
+  }
+  .headersection_col_2 {
+    height: 100%;
+    width: 100%;
+    margin-left: 10px !important;
+    padding-bottom: 20px;
+  }
+  .headersection_txt {
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+  .coins_img {
+    
+    width: 100%;
+    margin:auto
+  }
+  .headersection_col_3 {
+    height: 100%;
+    width: 100%;
+    margin-left: 10px !important;
+  }
+  .home_loop_img {
+    
+    width: 100%;
+    margin:auto;
+    padding-bottom: 20px;
+    
+  }
+  .serachbar_hs {
+    height: 58px;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .hs_search_form_wrapper1 {
+    height: auto;
+    width: 100%;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+  .hs_search_form_wrapper2 {
+    height: auto;
+    width: 100%;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+  .input_group {
+    width: 92%;
+    height: auto;
+    display: flex;
+    gap: 1rem;
+    border: 1px solid gray;
+    padding: 1rem 0.5rem;
+    background-color: #ffffff;
+  }
+  .headersection_form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27px;
+    width: 100%;
+    height: auto;
+  }
+  .sb_btn_hs {
+    width: 80%;
+    height: 58px;
+    margin-top: 39px;
+    border: none;
+    background-color: #39be4d;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .input2 {
+    border-left: 2px solid gray;
+    padding-left: 0.5rem;
+    margin-left: -3rem;
+  }
+  .input1 {
+    background: url("../../assets/images/LocationIcon.png") no-repeat;
+    background-position: 2px -1px;
+    background-size: 19px;
+    padding-left: 30px;
+  }
+  .title_txt_hs {
+    font-size: 30px;
+    font-weight: bold;
     padding-left: 20px;
+  }
+  .items_txt_hs {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .tick_img{
+    height: 28px;
+    width:41px;
+  }
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  .headersection_col_1 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headersection_col_2 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  .headersection_col_3 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  .coins_img {
+    height: 354px;
+    width: 100%;
+  }
+  .home_loop_img {
+    height: 354px;
+    width: 100%;
+    margin-left: -24px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px){
+  .coins_img {
+    height: 354px;
+    width: 100%;
+  }
+  .home_loop_img {
+    height: 354px;
+    width: 100%;
+    margin-left: -24px;
+  }
+  .headersection_col_1 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .headersection_col_2 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  
+  .headersection_col_3 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+  }
+
+  .hs_search_form_wrapper1 {
+    height: 363px;
+    width: 100%;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hs_search_form_wrapper2 {
+    height: 363px;
+    width: 100%;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .input_group {
+    width: 90%;
+    height: 78px;
+    display: flex;
+    gap: 1rem;
+    border: 1px solid gray;
+    padding: 1rem 0.5rem;
+    background-color: #ffffff;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .coins_img {
+    height: 354px;
+    width: 100%;
+  }
+  .home_loop_img {
+    height: 354px;
+    width: 100%;
+    margin-left: -24px;
+  }
+  .headersection_col_1 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .headersection_col_2 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  
+  .headersection_col_3 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+  .coins_img {
+    height: 354px;
+    width: 100%;
+  }
+  .home_loop_img {
+    height: 354px;
+    width: 100%;
+    margin-left: -24px;
+  }
+  .headersection_col_1 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .headersection_col_2 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  
+  .headersection_col_3 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px !important;
+  }
 }

@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Neue Helvetica Italic";
 }
 .Step2_form_section_wrapper {
   width: 580px;
@@ -11,6 +10,7 @@
 }
 .stap_2_wrapper {
   margin-bottom: 30px;
+  min-height: 55vh;
 }
 .Step2_form_text {
   font-size: 18px;
