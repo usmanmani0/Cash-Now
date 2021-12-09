@@ -15,9 +15,8 @@ import Footer from "../components/Footer/Footer";
 function Home() {
   return (
     <>
-      <Header />
-      <Navbar />
-      <HeaderSection />
+      
+      
       <WebPageTwo />
       <WebPageThree />
       <WebPageFour />
@@ -27,7 +26,7 @@ function Home() {
       <WebPageEight />
       <WebPageNine />
       <WebPageTen />
-      <Footer />
+      
     </>
   );
 }

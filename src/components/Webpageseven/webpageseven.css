@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .seven-section{
+    padding-top: 200px;
+  }
+  .top_line{
+      height: 0.1px;
+      width: 100%;
+      border-width: 0px;
+      color: #707070;
+  }
+  .heading_seven{
+      text-align: center;
+      margin-top: 5rem;
+      font-weight: bold;
+      font-size: 45px;
+  }
+  .para_seven{
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 5rem;
+  }
+  .pageseven_detail{
+      font: regular;
+      font-size: 30px;
+  }
+  .PagesevenImg1{
+      height: 467px;
+      width: 390px;  
+  }
+  .PagesevenImg2{
+    height: 223px;
+    width: 335px;  
+}
+.PagesevenImg3{
+    height: 223px;
+    width: 335px; 
+    margin-top: 20px; 
+}
+.PagesevenImg4{
+    height: 223px;
+    width: 335px;  
+}
+.PagesevenImg5{
+    height: 223px;
+    width: 335px; 
+    margin-top: 20px;  
+}
+.Pagesevenloc{
+    height: 79.67px;
+    width: 59.75px;
+}
+.pg7location_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+}
+.pg7loc_desc{
+    margin-left: 5px;
+}
+.pg7loc_heading{
+    font-size: 20px;
+}
+.pg7loc_detail{
+    font-size: 10px;
+    font-style: Light italic;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .seven-section{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .PagesevenImg1{
+        height: 260px;
+        width: 350px;  
+    }
+    .PagesevenImg2{
+        height: 260px;
+        width: 350px; 
+        margin-top: 20px; 
+  }
+  .PagesevenImg3{
+    height: 260px;
+    width: 350px; 
+      margin-top: 20px; 
+  }
+  .PagesevenImg4{
+    height: 260px;
+    width: 350px; 
+    margin-top: 20px; 
+  }
+  .PagesevenImg5{
+    height: 260px;
+    width: 350px; 
+      margin-top: 20px;  
+  }
+  .pg7location_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+.pageseven_detail{
+    font: regular;
+    font-size: 18px;
+    text-align: justify;
+}
+.heading_seven{
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 23px;
+}
+}

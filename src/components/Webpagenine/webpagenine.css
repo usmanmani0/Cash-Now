@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .nine-section{
+    margin-top: 200px ;
+  }
+  .PagenineImg1{
+      height: 390px;
+      width: 587px; 
+      position: relative; 
+  }
+  .PagenineImg2{
+    margin-left: -220px;
+    margin-top: 335px;
+    height: 273px;
+    width: 412px;
+    position: absolute;
+}
+.PagenineImg3{
+    height: 273px;
+    width: 412px;
+    margin-left: 642px;
+    margin-top: -542px; 
+}
+.PagenineImg4{
+    height: 309px;
+    width: 205px;
+    margin-left: 850px; 
+    margin-top: -114px; 
+}
+.PagenineImg5{
+    height: 223px;
+    width: 335px; 
+    margin-top: 20px;  
+}
+.Pagenineloc{
+    height: 79.67px;
+    width: 59.75px;
+}
+.pg9location_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 300px;
+}
+.pg9loc_desc{
+    margin-left: 5px;
+}
+.pg9loc_heading{
+    font-size: 20px;
+}
+.pg9loc_detail{
+    font-size: 10px;
+    font-style: Light italic;
+}
+
+
+@media only screen and (max-width: 600px){
+
+
+    .nine-section{
+        margin-top: 100px;
+        text-align: center;
+      }
+    .PagenineImg1{
+        height: 260px;
+    width: 350px; 
+        position: initial; 
+    
+    }
+    .PagenineImg2{
+        margin-left: 0px;
+        margin-top: 20px;
+        height: 260px;
+        width: 350px;
+        position: initial;
+    }
+    .PagenineImg3{
+        height: 260px;
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 20px; 
+    }
+    .PagenineImg4{
+        height: 260px;
+        width: 350px;
+        margin-left: 0px; 
+        margin-top: 20px; 
+    }
+    .pg9location_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+        padding-bottom: 150px;
+    }
+  
+}
