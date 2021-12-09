@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .six-section{
+    
+  }
+  .top_line{
+      height: 0.1px;
+      width: 100%;
+      border-width: 0px;
+      color: #707070;
+  }
+  .heading_six{
+      text-align: center;
+      margin-top: 5rem;
+      font-weight: bold;
+      font-size: 45px;
+  }
+  .para_six{
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 5rem;
+  }
+  .pagesix_detail{
+      font: regular;
+      font-size: 30px;
+  }
+  .PagesixImg1{
+      height: 467px;
+      width: 390px;  
+  }
+  .PagesixImg2{
+    height: 223px;
+    width: 335px;  
+}
+.PagesixImg3{
+    height: 223px;
+    width: 335px; 
+    margin-top: 20px; 
+}
+.PagesixImg4{
+    height: 223px;
+    width: 335px;  
+}
+.PagesixImg5{
+    height: 223px;
+    width: 335px; 
+    margin-top: 20px;  
+}
+.Pagesixloc{
+    height: 79.67px;
+    width: 59.75px;
+}
+.location_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+}
+.loc_desc{
+    margin-left: 5px;
+}
+.loc_heading{
+    font-size: 20px;
+}
+.loc_detail{
+    font-size: 10px;
+    font-style: Light italic;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .six-section{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .PagesixImg1{
+        height: 260px;
+        width: 350px;  
+    }
+    .PagesixImg2{
+        height: 260px;
+        width: 350px; 
+        margin-top: 20px; 
+  }
+  .PagesixImg3{
+    height: 260px;
+    width: 350px; 
+      margin-top: 20px; 
+  }
+  .PagesixImg4{
+    height: 260px;
+    width: 350px; 
+    margin-top: 20px; 
+  }
+  .PagesixImg5{
+    height: 260px;
+    width: 350px; 
+      margin-top: 20px;  
+  }
+  .location_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+.pagesix_detail{
+    font: regular;
+    font-size: 18px;
+    text-align: justify;
+}
+.heading_six{
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 23px;
+}
+}
