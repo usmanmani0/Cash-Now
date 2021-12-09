@@ -10,7 +10,7 @@ const HeaderSection = () => {
     <>
       <Container className="headersection_container" fluid>
         <Row className="headersection_wrapper">
-          <Col lg={6}>
+          <Col lg={6} xs={12} xl={6} md={6} sm={6}>
             <div className="headersection_col_1">
               <p className="headersection_txt">
                 <span className="uline">Direct</span> verkocht,
@@ -20,12 +20,12 @@ const HeaderSection = () => {
               </p>
             </div>
           </Col>
-          <Col lg={4}>
+          <Col lg={3} xs={12} xl={3} md={3} sm={3}>
             <div className="headersection_col_2">
               <Image className="coins_img" src={Coins} rounded />
             </div>
           </Col>
-          <Col lg={2}>
+          <Col lg={3} xs={12} xl={3} md={3} sm={3}>
             <div className="headersection_col_3">
               <Image className="home_loop_img" src={HomeLoop} rounded />
             </div>
@@ -35,7 +35,7 @@ const HeaderSection = () => {
 
       <Container className="headersection_form_container" fluid>
         <Row>
-          <Col lg={6}>
+          <Col lg={6} xs={12}>
             <div className="hs_search_form_wrapper1">
               <p>Ontvang een koopvoorstel</p>
 
@@ -65,7 +65,7 @@ const HeaderSection = () => {
               </form>
             </div>
           </Col>
-          <Col lg={6}>
+          <Col lg={6} xs={12}>
             <div className="hs_search_form_wrapper2">
               <h3 className="title_txt_hs">Wij kopen zelf:</h3>
               <div className="tick">

@@ -6,13 +6,13 @@ const WebPageTwo = () => {
   return (
     <Container className="pageT_container">
       <Row className="pagetwo_wrapper">
-        <Col lg={4} className="pagetwo_nav_col">
+        <Col lg={4} xs={12} className="pagetwo_nav_col">
           <span className="pagetwo_nav_txt">Hoe het werkt</span>
         </Col>
-        <Col lg={4} className="pagetwo_nav_col">
+        <Col lg={4} xs={12} className="pagetwo_nav_col">
           <span className="pagetwo_nav_txt">Krijg direct een bod</span>
         </Col>
-        <Col lg={4} className="pagetwo_nav_col">
+        <Col lg={4} xs={12} className="pagetwo_nav_col">
           <span className="pagetwo_nav_txt">Realistisch</span>
         </Col>
       </Row>

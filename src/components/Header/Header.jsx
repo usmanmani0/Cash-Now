@@ -8,7 +8,7 @@ const Header = () => {
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#" className="cashnewlogo">
-          <Image src={CashNowLogo} rounded />
+          <Image className="mv_logo" src={CashNowLogo} rounded />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

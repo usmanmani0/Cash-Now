@@ -8,15 +8,15 @@ const Footer = () => {
     <Container className="footer_container" fluid>
       <Container >
         <Row>
-          <Col >
+          <Col className="mv_footer_r1" >
             <span className="privacy_footer_txt">Privacy</span>
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col xs={12}>
             <div className="footer_img_para">
               <Image
-                className="pageT_icon img_cards img_footer"
+                className="img_footer"
                 src={CashNowLogo}
                 rounded
               />

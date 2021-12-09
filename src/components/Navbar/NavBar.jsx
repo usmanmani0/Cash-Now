@@ -7,7 +7,7 @@ const Navbar = () => {
     <Container className="navbar_container" fluid>
       <Container>
         <Row>
-          <Col lg={5} className="navbar_items">
+          <Col lg={5} xs={12} className="navbar_items">
             <span className="navbar_txt">Huizen</span>
             <span className="navbar_txt">Appartementen</span>
             <span className="navbar_txt">Gronden</span>
