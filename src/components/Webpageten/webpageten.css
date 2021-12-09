@@ -4,3 +4,13 @@
     font-size: 30px;
     padding: 100px 50px;
 }
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    .pg_ten_para_txt{
+        font-size: 16px;
+        padding: 10px 10px;
+        text-align: center;
+    }
+    
+}

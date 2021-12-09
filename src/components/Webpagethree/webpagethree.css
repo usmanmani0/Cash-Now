@@ -17,7 +17,7 @@
 .pageThree_card_1_heading {
   font-size: 25px;
   padding-left: 30px;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 .pageThree_card_2_heading {
   font-size: 25px;
@@ -42,6 +42,9 @@
 }
 .img_cards {
   padding-top: 30px;
+}
+.pthree_ib_img{
+  padding-top: 20px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {

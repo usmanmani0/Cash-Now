@@ -41,7 +41,7 @@
   .pg_five_img_para_wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   .input_group_pg_five {
@@ -57,6 +57,14 @@
     border-left: 2px solid gray;
     padding-left: 0.5rem;
     margin-left: -4rem;
+  }
+  .pg_five_heading_txt {
+    font-size: 30px;
+    text-align: center;
+    padding-right: 0px;
+  }
+  .pfi_img_dlr{
+    align-self: center;
   }
 }
 

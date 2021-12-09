@@ -31,7 +31,7 @@ const WebPageThree = () => {
       <Row className="pageThree_cards_wrapper">
         <Col>
           <div className="pageThree_card_1">
-            <Image  src={InboxIcon} rounded />
+            <Image className="pthree_ib_img" src={InboxIcon} rounded />
             <h3 className="pageThree_card_1_heading">
               Stap 1 - contacteer ons!
             </h3>
@@ -48,7 +48,7 @@ const WebPageThree = () => {
         </Col>
         <Col>
           <div className="pageThree_card_1">
-            <Image  src={handIcon} rounded />
+            <Image className="pthree_ib_img" src={handIcon} rounded />
             <h3 className="pageThree_card_2_heading">
               Stap 2 - ontvang een Correct bod met voorschot.
             </h3>
@@ -60,7 +60,7 @@ const WebPageThree = () => {
         </Col>
         <Col>
           <div className="pageThree_card_1">
-            <Image  src={SoldIcon} rounded />
+            <Image className="pthree_ib_img" src={SoldIcon} rounded />
             <h3 className="pageThree_card_3_heading">Stap 3 - verkocht.</h3>
             <p className="pageThree_card_1_para_txt">
               U bepaald zelf de datum <br /> Van effectieve verkoop. <br /> Geen kosten, geen

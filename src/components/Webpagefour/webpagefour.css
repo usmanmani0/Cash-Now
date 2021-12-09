@@ -22,7 +22,7 @@
     .pageFour_img_para_wrapper{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
   .pf_tt{
@@ -35,4 +35,17 @@
       padding-left: 50px;
 
   }
+  .pf_img_certi{
+   align-self: center;   
+  }
+
+  .pageFour_para_txt_1{
+    font-size: 16px;
+    text-align: center;
+
+}
+.pageFour_heading_txt{
+    font-size: 30px;
+    text-align: center;
+}
 }

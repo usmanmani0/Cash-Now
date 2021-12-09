@@ -7,14 +7,21 @@
   font-size: 24px;
   color: #707070;
   padding-left: 36px;
+  font-weight: bold;
 }
 @media only screen and (min-width: 300px) and (max-width: 600px){
   .cashnewlogo {
     height: 102px;
-    width: 250px;
+    width: 195px;
   }
   .mv_logo{
     height: auto;
-    width: 250px;
+    width: 90%;
   }
+  .header_txt {
+    font-size: 24px;
+    color: #707070;
+    padding-left: 10px;
+  }
+ 
 }

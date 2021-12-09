@@ -19,7 +19,7 @@ const WebPageFive = () => {
                 borden en stickers.
               </p>
             </div>
-            <Image className="pageT_icon img_cards" src={DollorIcon} rounded />
+            <Image className="pageT_icon img_cards pfi_img_dlr" src={DollorIcon} rounded />
           </div>
         </Col>
       </Row>
@@ -27,7 +27,7 @@ const WebPageFive = () => {
       <Row>
         <Col>
           <div className="pageFour_img_para_wrapper">
-            <Image className="pageT_icon img_cards" src={DollorIcon} rounded />
+            <Image className="pageT_icon img_cards pfi_img_dlr" src={DollorIcon} rounded />
 
             <div>
               <h3 className="pageFour_heading_txt">Snelle verkoop</h3> <br />

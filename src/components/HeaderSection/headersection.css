@@ -151,6 +151,7 @@
     height: 100%;
     margin-left: 0px !important;
     
+    
    
   }
   .headersection_col_2 {
@@ -195,6 +196,7 @@
     align-items: center;
     flex-direction: column;
     padding: 50px 0px;
+    margin-bottom: 20px;
   }
   .hs_search_form_wrapper2 {
     height: auto;
@@ -321,22 +323,28 @@
   }
 
   .hs_search_form_wrapper1 {
-    height: 363px;
-    width: 100%;
+    height: auto;
+    width: 80%;
     background-color: #eaeaea;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 60px 0px;
+    margin: auto;
+    
   }
   .hs_search_form_wrapper2 {
-    height: 363px;
-    width: 100%;
+    height: auto;
+    width: 80%;
     background-color: #eaeaea;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 50px 0px;
+    margin: auto;
+    margin-bottom: 20px;
   }
   .input_group {
     width: 90%;
@@ -380,6 +388,29 @@
     width: 100%;
     margin-left: 0px !important;
   }
+  .hs_search_form_wrapper1 {
+    height: auto;
+    width: 80%;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .hs_search_form_wrapper2 {
+    height: auto;
+    width: 80%;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px){
@@ -411,5 +442,28 @@
     height: 100%;
     width: 100%;
     margin-left: 0px !important;
+  }
+  .hs_search_form_wrapper1 {
+    height: auto;
+    width: 80%;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .hs_search_form_wrapper2 {
+    height: auto;
+    width: 80%;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+    margin: auto;
   }
 }

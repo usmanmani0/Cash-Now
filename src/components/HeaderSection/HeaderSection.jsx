@@ -39,7 +39,7 @@ const HeaderSection = () => {
             <div className="hs_search_form_wrapper1">
               <p>Ontvang een koopvoorstel</p>
 
-              <form action="/action_page.php" className="inpt_form_hs">
+              <form  className="inpt_form_hs">
                 <div className="input_group">
                   <input
                     type="text"

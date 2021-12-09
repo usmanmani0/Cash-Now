@@ -32,7 +32,7 @@ const WebPageFour = () => {
         <Col>
           <div className="pageFour_img_para_wrapper">
             <Image
-              className="pageT_icon img_cards"
+              className="pageT_icon img_cards pf_img_certi"
               src={certifiedIcon}
               rounded
             />
@@ -53,7 +53,7 @@ const WebPageFour = () => {
       <Row>
         <Col>
           <div className="pageFour_img_para_wrapper">
-            <Image className="pageT_icon img_cards" src={ToopIcon} rounded />
+            <Image className="pageT_icon img_cards pf_img_certi" src={ToopIcon} rounded />
 
             <div>
               <h3 className="pageFour_heading_txt">Snelle verkoop</h3> <br />
