@@ -3,6 +3,7 @@ import "../Step2/step2.css"
 import Step3 from '../Step3'
 import Step4 from '../Step4'
 import Step5 from "../Step5"
+import FormBottomText from "../Text"
 
 const Step2 = () => {
     return (
@@ -73,6 +74,9 @@ const Step2 = () => {
                 {/* <Step3 /> */}
                 {/* <Step4 /> */}
                 <Step5 />
+            </div>
+            <div className='mt-5'>
+                <FormBottomText />
             </div>
 
 

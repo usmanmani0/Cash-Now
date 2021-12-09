@@ -79,7 +79,7 @@ input {
 }
 @media screen and (max-width: 470px) {
   .Step5_feilds_wrapper {
-    padding: 0px 30px;
+    padding: 10px 30px;
   }
 }
 @media screen and (max-width: 510px) {
