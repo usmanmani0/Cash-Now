@@ -4,7 +4,7 @@ import Step3 from '../Step3'
 import Step4 from '../Step4'
 import Step5 from "../Step5"
 import FormBottomText from "../Text"
-import React from "react";
+
 import { Navbar } from "react-bootstrap";
 import Header from "../../Header/Header";
 import NavBar from "../../Navbar/NavBar";
