@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import Navbar from "../components/Navbar/Navbar";
+import NavBar from "../components/Navbar/NavBar";
 import HeaderSection from "../components/HeaderSection/HeaderSection";
 import WebPageTwo from "../components/Webpagetwo/WebPageTwo";
 import WebPageThree from "../components/Webpagethree/WebPageThree";
@@ -16,7 +16,7 @@ function Home() {
   return (
     <>
       <Header />
-      <Navbar />
+      <NavBar />
       <HeaderSection />
       <WebPageTwo />
       <WebPageThree />
