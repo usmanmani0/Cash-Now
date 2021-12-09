@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .seven-section{
+    padding-top: 200px;
+  }
+  .top_line{
+      height: 0.1px;
+      width: 100%;
+      border-width: 0px;
+      color: #707070;
+  }
+  .heading_seven{
+      text-align: center;
+      margin-top: 5rem;
+      font-weight: bold;
+      font-size: 45px;
+  }
+  .para_seven{
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 5rem;
+  }
+  .pageseven_detail{
+      font: regular;
+      font-size: 30px;
+  }
+  .PagesevenImg1{
+      height: 370px;
+      width: 100%;  
+  }
+  .PagesevenImg2{
+    height: auto;
+      width: 100%;  
+}
+.PagesevenImg3{
+    height: auto;
+    width: 100%;  
+    margin-top: 20px; 
+}
+.PagesevenImg4{
+    height: auto;
+    width: 100%;   
+}
+.PagesevenImg5{
+    height: auto;
+    width: 100%;  
+    margin-top: 20px;  
+}
+.Pagesevenloc{
+    height: auto;
+    width: 100%;
+}
+.pg7location_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pg7loc_desc{
+    margin-left: 5px;
+}
+.pg7loc_heading{
+    font-size: 20px;
+}
+.pg7loc_detail{
+    font-size: 10px;
+    font-style: Light italic;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .seven-section{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .PagesevenImg1{
+        height: 260px;
+        width: 350px;  
+    }
+    .PagesevenImg2{
+        height: 260px;
+        width: 350px; 
+        margin-top: 20px; 
+  }
+  .PagesevenImg3{
+    height: 260px;
+    width: 350px; 
+      margin-top: 20px; 
+  }
+  .PagesevenImg4{
+    height: 260px;
+    width: 350px; 
+    margin-top: 20px; 
+  }
+  .PagesevenImg5{
+    height: 260px;
+    width: 350px; 
+      margin-top: 20px;  
+  }
+  .pg7location_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.pageseven_detail{
+    font: regular;
+    font-size: 18px;
+    text-align: justify;
+}
+.heading_seven{
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 23px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width:992px){
+    .pg7location_div{
+       
+        margin-top: 50px;
+    }
+    
+}
+@media only screen and (min-width: 992px) and (max-width:1200px){
+    .PagesevenImg1{
+        height: 310px;
+        width: 100%;  
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width:1400px) {
+    .PagesevenImg1{
+        height: 370px;
+        width: 100%;  
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width:1900px) {
+    .PagesevenImg1{
+        height: 430px;
+        width: 100%;  
+    }
+}

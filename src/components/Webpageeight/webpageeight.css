@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .eight-section{
+    padding-top: 200px;
+  }
+  .top_line{
+      height: 0.1px;
+      width: 100%;
+      border-width: 0px;
+      color: #707070;
+  }
+  .heading_eight{
+      text-align: center;
+      margin-top: 5rem;
+      font-weight: bold;
+      font-size: 45px;
+  }
+  .para_eight{
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 5rem;
+  }
+  .pageeight_detail{
+      font: regular;
+      font-size: 30px;
+  }
+  .PageeightImg1{
+      height: 390px;
+      width: 100%;  
+  }
+  .PageeightImg2{
+    height: auto;
+    width: 100%;  
+}
+.PageeightImg3{
+    height: auto;
+    width: 100%; 
+    margin-top: 20px; 
+}
+.PageeightImg4{
+    height: auto;
+    width: 100%;  
+}
+.PageeightImg5{
+    height: auto;
+    width: 100%;  
+    margin-top: 20px;  
+}
+.Pageeightloc{
+    height: auto;
+    width: 100%; 
+}
+.pg8location_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pg8loc_desc{
+    margin-left: 5px;
+}
+.pg8loc_heading{
+    font-size: 20px;
+}
+.pg8loc_detail{
+    font-size: 10px;
+    font-style: Light italic;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .eight-section{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .PageeightImg1{
+        height: 260px;
+        width: 350px;  
+    }
+    .PageeightImg2{
+        height: 260px;
+        width: 350px; 
+        margin-top: 20px; 
+  }
+  .PageeightImg3{
+    height: 260px;
+    width: 350px; 
+      margin-top: 20px; 
+  }
+  .PageeightImg4{
+    height: 260px;
+    width: 350px; 
+    margin-top: 20px; 
+  }
+  .PageeightImg5{
+    height: 260px;
+    width: 350px; 
+      margin-top: 20px;  
+  }
+  .pg8location_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.pageeight_detail{
+    font: regular;
+    font-size: 18px;
+    text-align: justify;
+}
+.heading_eight{
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: bold;
+    font-size: 23px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width:992px){
+    .pg8location_div{
+        
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width:1200px){
+    .PageeightImg1{
+        height: 310px;
+        width: 100%;  
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width:1400px) {
+    .PageeightImg1{
+        height: 370px;
+        width: 100%;  
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width:1900px) {
+    .PageeightImg1{
+        height: 430px;
+        width: 100%;  
+    }
+}
