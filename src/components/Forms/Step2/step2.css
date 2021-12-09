@@ -9,7 +9,7 @@
   margin: auto;
   background-color: #eaeaea;
 }
-.stap_2_wrapper{
+.stap_2_wrapper {
   margin-bottom: 30px;
 }
 .Step2_form_text {
@@ -106,8 +106,24 @@ input {
   .Step2_feilds_wrapper {
     padding: 0px 30px;
   }
+  .Step2_form_text {
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+    padding-top: 30px;
+  }
+  .step2_heading {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .step2_tag {
+    font-size: 14px;
+    line-height: 26px;
+    color: #b12121;
+  }
 }
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 565px) {
   .mobile_view {
     flex-direction: column;
   }

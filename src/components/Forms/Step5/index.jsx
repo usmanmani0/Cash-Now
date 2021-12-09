@@ -4,12 +4,12 @@ import Header from "../../Header/Header";
 import NavBar from "../../Navbar/NavBar";
 import Footer from "../../Footer/Footer";
 import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Step5 = () => {
   return (
     <>
-      <Header />
-      <NavBar />
+
       <div className="stap_5_wrapper">
         <div className="d-flex justify-content-center mt-5">
           <div className="step5_heading">
@@ -35,16 +35,16 @@ const Step5 = () => {
               </div>
             </div>
             <div className="d-flex justify-content-center mt-4">
-              <button className="step2_btn">
+              <Link to="/finish"><button className="step2_btn">
                 Voltooi <i class="fas fa-chevron-right Step5_btn_arrow"></i>{" "}
                 <i class="fas fa-chevron-right btn_arrow"></i>
-              </button>
+              </button></Link>
             </div>
           </div>
         </div>
       </div>
 
-      <Footer />
+
     </>
   );
 };

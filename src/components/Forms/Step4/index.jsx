@@ -3,12 +3,12 @@ import "../Step4/step4.css";
 import Header from "../../Header/Header";
 import NavBar from "../../Navbar/NavBar";
 import Footer from "../../Footer/Footer";
+import { Link } from "react-router-dom";
 
 const Step4 = () => {
   return (
     <>
-      <Header />
-      <NavBar />
+
       <div className="stap_4_wrapper">
         <div className="d-flex justify-content-center mt-5">
           <div className="step2_heading">
@@ -46,16 +46,16 @@ const Step4 = () => {
               </div>
             </div>
             <div className="d-flex justify-content-center mt-4">
-              <button className="step2_btn">
+              <Link to="/step5"> <button className="step2_btn">
                 Voltooi <i class="fas fa-chevron-right btn_arrow"></i>{" "}
                 <i class="fas fa-chevron-right btn_arrow"></i>
-              </button>
+              </button></Link>
             </div>
           </div>
         </div>
       </div>
 
-      <Footer />
+
     </>
   );
 };
