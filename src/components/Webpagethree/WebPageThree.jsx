@@ -10,7 +10,7 @@ const WebPageThree = () => {
     <Container className="pageThree_container">
       <Row>
         <Col className="pageT_title">
-          <h3 className="pageT_title_txt">
+          <h3 className="pageT_title_txt pg_three_tt">
             Verkoop jouw huis in Vlaanderen SNEL
           </h3>
         </Col>
@@ -18,7 +18,7 @@ const WebPageThree = () => {
 
       <Row className="pageThree_paragraph_wrapper">
         <Col>
-          <p className="pageT_paragraph_txt">
+          <p className="pageT_paragraph_txt pg_three_ptxt">
             Snell verkoop heeft jaren ervaring in het opkopen van huizen,
             appartementen en gronden. Onze 3 stappen koop proces maakt het kou
             gemakkelijk. Verkoop jouw huis in Vlaanderen op de gemakkelijkste

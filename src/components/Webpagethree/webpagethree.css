@@ -1,59 +1,87 @@
-.pageThree_container{
-    margin-top: 5px;
+.pageThree_container {
+  margin-top: 5px;
 }
 
-.pageThree_paragraph_wrapper{
-    padding-top: 85px;
+.pageThree_paragraph_wrapper {
+  padding-top: 85px;
 }
 
-.pageThree_card_1{
-    width: 350px;
-    height: 543px;
-    background-color: #E1E8F3;
+.pageThree_card_1 {
+  width: 350px;
+  height: 543px;
+  background-color: #e1e8f3;
+  display: flex;
+  flex-direction: column;
+}
+
+.pageThree_card_1_heading {
+  font-size: 25px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.pageThree_card_2_heading {
+  font-size: 25px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.pageThree_card_3_heading {
+  font-size: 25px;
+  padding-left: 36px;
+  padding-top: 30px;
+}
+
+.pageThree_card_1_para_txt {
+  font-size: 22px;
+  text-align: left;
+  padding: 10px 20px 10px 36px;
+}
+
+.pageThree_cards_wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.img_cards {
+  padding-top: 30px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .pageThree_card_1 {
+    width: 100%;
+    height: auto;
+    background-color: #e1e8f3;
     display: flex;
     flex-direction: column;
-   
-}
+    justify-content: center;
+    padding: 20px 20px;
+  }
 
-.pageThree_card_1_heading{
-    font-size: 25px;
-    padding-left: 30px;
-    padding-top: 10px;
-}
-.pageThree_card_2_heading{
-    font-size: 25px;
-    padding-left: 30px;
-    padding-top: 30px;
-}
-.pageThree_card_3_heading{
-    font-size: 25px;
-    padding-left: 36px;
-    padding-top: 30px;
-}
-
-.pageThree_card_1_para_txt{
-    font-size: 22px;
+  .pg_three_tt {
+    font-size: 30px;
+    text-align: center;
+  }
+  .pg_three_ptxt {
+    text-align: center;
+  }
+  .pageThree_card_1_heading {
+    font-size: 16px;
     text-align: left;
-    padding: 10px 20px 10px 36px;
-}
-
-.pageThree_cards_wrapper{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.img_cards{
+    padding-top: 10px;
+    font-weight: bold;
+  }
+  .pageThree_card_2_heading {
+    font-size: 16px;
+    text-align: left;
     padding-top: 30px;
-}
-
-@media only screen and (min-width: 300px) and (max-width: 600px){
-    .pageThree_card_1{
-        width: 100%;
-        height: auto;
-        background-color: #E1E8F3;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-       
-    }
-    
+    font-weight: bold;
+  }
+  .pageThree_card_3_heading {
+    font-size: 16px;
+    text-align: left;
+    padding-top: 30px;
+    font-weight: bold;
+  }
+  .pageThree_card_1_para_txt {
+    font-size: 16px;
+    text-align: left;
+  }
 }

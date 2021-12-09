@@ -1,11 +1,6 @@
 import React from 'react'
 import "../Step2/step2.css"
-import Step3 from '../Step3'
-import Step4 from '../Step4'
-import Step5 from "../Step5"
 import FormBottomText from "../Text"
-
-import { Navbar } from "react-bootstrap";
 import Header from "../../Header/Header";
 import NavBar from "../../Navbar/NavBar";
 import Footer from "../../Footer/Footer";
@@ -14,8 +9,7 @@ import "../Step2/step2.css";
 const Step2 = () => {
     return (
         <>
-            <Header />
-            <NavBar />
+        
             <div className="stap_2_wrapper">
                 <div className="justify-content-center mt-5">
                     <div className="step2_heading text-center">
@@ -72,14 +66,12 @@ const Step2 = () => {
                                 <i class="fas fa-chevron-right btn_arrow"></i>
                             </button>
                         </div>
-                        <div className='mt-5'>
-                            <FormBottomText />
-                        </div>
+                     
                     </div>
                 </div>
             </div>
 
-            <Footer />
+    
         </>
     );
 };

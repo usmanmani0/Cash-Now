@@ -69,19 +69,19 @@ const HeaderSection = () => {
             <div className="hs_search_form_wrapper2">
               <h3 className="title_txt_hs">Wij kopen zelf:</h3>
               <div className="tick">
-                <Image width="51px" height="38px" src={YesTick} rounded />
+                <Image className="tick_img"  src={YesTick} rounded />
                 <h3 className="items_txt_hs">Bod binnen 24 uur</h3>
               </div>
               <div className="tick">
-                <Image width="51px" height="38px" src={YesTick} rounded />
+                <Image className="tick_img" src={YesTick} rounded />
                 <h3 className="items_txt_hs">Bod binnen 24 uur</h3>
               </div>
               <div className="tick">
-                <Image width="51px" height="38px" src={YesTick} rounded />
+                <Image className="tick_img" src={YesTick} rounded />
                 <h3 className="items_txt_hs">Bod binnen 24 uur</h3>
               </div>
               <div className="tick">
-                <Image width="51px" height="38px" src={YesTick} rounded />
+                <Image className="tick_img" src={YesTick} rounded />
                 <h3 className="items_txt_hs">Bod binnen 24 uur</h3>
               </div>
               

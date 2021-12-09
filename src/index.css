@@ -11,11 +11,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-@font-face {
-  font-family: "Neue Helvetica Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Neue Helvetica Italic"),
-    url("./assets/fonts/Helvetica\ Neue\ LT\ 63\ Medium\ Extended.woff")
-      format("woff");
-}
+

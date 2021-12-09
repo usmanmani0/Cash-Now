@@ -134,6 +134,10 @@
   font-size: 35px;
   padding-left: 20px;
 }
+.tick_img{
+  height: 38px;
+  width: 51px;
+}
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
   .headersection_wrapper {
@@ -158,6 +162,7 @@
   .headersection_txt {
     font-size: 20px;
     color: #ffffff;
+    padding-top: 20px;
   }
   .coins_img {
     
@@ -173,6 +178,7 @@
     
     width: 100%;
     margin:auto;
+    padding-bottom: 20px;
     
   }
   .serachbar_hs {
@@ -237,7 +243,19 @@
     background-size: 19px;
     padding-left: 30px;
   }
-  
+  .title_txt_hs {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  .items_txt_hs {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .tick_img{
+    height: 28px;
+    width:41px;
+  }
   
 }
 
