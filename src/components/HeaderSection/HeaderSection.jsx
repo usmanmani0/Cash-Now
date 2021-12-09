@@ -43,22 +43,20 @@ const HeaderSection = () => {
                 <div className="input_group">
                   <input
                     type="text"
-                    id="fname"
-                    name="fname"
+                  
                     className="input1"
                     placeholder="Straat"
                   ></input>
                   <input
                     type="text"
-                    id="fname"
-                    name="fname"
+                 
                     className="input2"
                     placeholder="Postcode, Stad"
                   ></input>
                 </div>
 
                 <input
-                  type="submit"
+          
                   value="Ontvang een bod >>"
                   className="sb_btn_hs"
                 />

@@ -2,9 +2,11 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  /* min-height: 100vh; */
 }
-.stap_3_wrapper{
+.stap_3_wrapper {
   margin-bottom: 50px;
+  min-height: 55vh;
 }
 .Step3_form_section_wrapper {
   width: 580px;
@@ -18,7 +20,7 @@
   padding-top: 30px;
 }
 .Step3_feilds_wrapper {
-  padding: 20px 50px 30px 50px;
+  padding: 30px 50px 30px 50px;
 }
 .Step3_input_field {
   width: 100%;

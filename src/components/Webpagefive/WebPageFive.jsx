@@ -2,7 +2,7 @@ import React from "react";
 import webpagefive from "./webpagefive.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import DollorIcon from "../../assets/images/DollorIcon.png";
-import LoopIcon from '../../assets/images/LoopIcon.png'
+import LoopIcon from "../../assets/images/LoopIcon.png";
 
 const WebPageFive = () => {
   return (
@@ -19,7 +19,11 @@ const WebPageFive = () => {
                 borden en stickers.
               </p>
             </div>
-            <Image className="pageT_icon img_cards pfi_img_dlr" src={DollorIcon} rounded />
+            <Image
+              className="pageT_icon img_cards pfi_img_dlr"
+              src={DollorIcon}
+              rounded
+            />
           </div>
         </Col>
       </Row>
@@ -27,7 +31,11 @@ const WebPageFive = () => {
       <Row>
         <Col>
           <div className="pageFour_img_para_wrapper">
-            <Image className="pageT_icon img_cards pfi_img_dlr" src={DollorIcon} rounded />
+            <Image
+              className="pageT_icon img_cards pfi_img_dlr"
+              src={DollorIcon}
+              rounded
+            />
 
             <div>
               <h3 className="pageFour_heading_txt">Snelle verkoop</h3> <br />
@@ -46,36 +54,32 @@ const WebPageFive = () => {
       </Row>
 
       <Row>
-          <Col>
+        <Col>
           <div className="hs_search_form_wrapper_pg_five">
-              <p>Ontvang een koopvoorstel</p>
+            <p>Ontvang een koopvoorstel</p>
 
-              <form action="/action_page.php" className="inpt_form_hs">
-                <div className="input_group_pg_five">
-                  <input
-                    type="text"
-                    id="fname"
-                    name="fname"
-                    className="input1"
-                    placeholder="Straat"
-                  ></input>
-                  <input
-                    type="text"
-                    id="fname"
-                    name="fname"
-                    className="input2 input2_pg_five"
-                    placeholder="Postcode, Stad"
-                  ></input>
-                </div>
-
+            <form className="inpt_form_hs">
+              <div className="input_group_pg_five">
                 <input
-                  type="submit"
-                  value="Ontvang een bod >>"
-                  className="sb_btn_hs"
-                />
-              </form>
-            </div>
-          </Col>
+                  type="text"
+                  className="input1"
+                  placeholder="Straat"
+                ></input>
+                <input
+                  type="text"
+                  className="input2 input2_pg_five"
+                  placeholder="Postcode, Stad"
+                ></input>
+              </div>
+
+              <input
+             
+                value="Ontvang een bod >>"
+                className="sb_btn_hs"
+              />
+            </form>
+          </div>
+        </Col>
       </Row>
     </Container>
   );

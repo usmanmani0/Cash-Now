@@ -3,8 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.stap_5_wrapper{
+.stap_5_wrapper {
   margin-bottom: 50px;
+  min-height: 55vh;
 }
 .Step5_form_section_wrapper {
   width: 580px;

@@ -16,6 +16,7 @@
 .navbar_txt {
   font-size: 24px;
   color: #707070;
+  text-decoration: none !important;
 }
 @media only screen and (min-width: 300px) and (max-width: 600px){
   .navbar_txt {

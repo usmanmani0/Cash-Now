@@ -1,5 +1,6 @@
 import React from "react";
 import navbar from "./navbar.css";
+import { Link } from "react-router-dom";
 
 import { Container, Row, Col } from "react-bootstrap";
 const Navbar = () => {
@@ -7,8 +8,8 @@ const Navbar = () => {
     <Container className="navbar_container" fluid>
       <Container>
         <Row>
-          <Col lg={5} xs={12} className="navbar_items">
-            <span className="navbar_txt">Huizen</span>
+          <Col lg={5} className="navbar_items">
+            <Link to="/step2" className="navbar_txt"> <span className="navbar_txt">Huizen</span></Link>
             <span className="navbar_txt">Appartementen</span>
             <span className="navbar_txt">Gronden</span>
           </Col>
