@@ -80,14 +80,29 @@ input {
     margin: auto;
     background-color: #eaeaea;
   }
+  .step5_heading {
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
 }
 @media screen and (max-width: 470px) {
   .Step5_feilds_wrapper {
     padding: 10px 30px;
   }
+  .step5_heading {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+  }
 }
 @media screen and (max-width: 510px) {
   .mobile_view {
     flex-direction: column;
+  }
+  .step5_heading {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
   }
 }

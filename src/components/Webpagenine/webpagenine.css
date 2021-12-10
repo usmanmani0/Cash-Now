@@ -297,9 +297,7 @@
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1900px) {
-  .pg_nine_container {
-    margin: 15rem 0px;
-  }
+  
   .nine-section {
     margin-top: 200px;
     margin-bottom: 100px;
@@ -355,9 +353,7 @@
 }
 
 @media only screen and (min-width: 1900px) and (max-width: 3000px) {
-  .pg_nine_container {
-    margin: 15rem 0px;
-  }
+ 
   .nine-section {
     margin-top: 200px;
     margin-bottom: 100px;

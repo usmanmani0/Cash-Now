@@ -79,6 +79,23 @@ input {
     margin: auto;
     background-color: #eaeaea;
   }
+  .step3_tag {
+    font-size: 16px;
+    line-height: 26px;
+    color: #b12121;
+  }
+  .step3_heading {
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+  }
+  .Step3_form_text {
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    padding-top: 30px;
+  }
 }
 /* @media screen and (max-width: 470px) {
   .Step3_feilds_wrapper {
@@ -89,5 +106,22 @@ input {
 @media screen and (max-width: 510px) {
   .mobile_view {
     flex-direction: column;
+  }
+  .step3_tag {
+    font-size: 14px;
+    line-height: 26px;
+    color: #b12121;
+  }
+  .step3_heading {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+  }
+  .Step3_form_text {
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+    padding-top: 30px;
   }
 }
