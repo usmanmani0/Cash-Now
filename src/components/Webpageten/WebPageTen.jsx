@@ -3,7 +3,7 @@ import webpageten from "./webpageten.css";
 import { Container, Row, Col } from "react-bootstrap";
 const WebPageTen = () => {
   return (
-    <Container>
+    <Container className="pg_ten_container">
       <Row>
         <Col className="pageT_title">
           <h3 className="pageT_title_txt">Onze service</h3>

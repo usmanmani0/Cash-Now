@@ -1,11 +1,4 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
-/* .pg_nine_container{
-    margin: 10rem 0px;
-} */
+
 .nine-section {
   margin-top: 200px;
   display: flex;
@@ -246,9 +239,9 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-  .pg_nine_container {
+  /* .pg_nine_container {
     margin: 15rem 0px;
-  }
+  } */
   .nine-section {
     margin-top: 200px;
     margin-bottom: 100px;
