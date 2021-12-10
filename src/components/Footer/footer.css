@@ -22,8 +22,12 @@
   padding-left: 20px;
 }
 .footer_pri_r1{
-  margin: top 20px; ;
+  margin-top: 20px !important;
 }
+.footer_inner_container{
+  padding: 30px 10px;
+}
+
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
   .footer_img_para {

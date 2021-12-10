@@ -56,7 +56,7 @@ const WebPageFive = () => {
       <Row>
         <Col>
           <div className="hs_search_form_wrapper_pg_five">
-            <p>Ontvang een koopvoorstel</p>
+            <h3 className="form_title_txt">Ontvang een koopvoorstel</h3>
 
             <form className="inpt_form_hs">
               <div className="input_group_pg_five">
@@ -72,11 +72,7 @@ const WebPageFive = () => {
                 ></input>
               </div>
 
-              <input
-             
-                value="Ontvang een bod >>"
-                className="sb_btn_hs"
-              />
+              <input value="Ontvang een bod >>" className="sb_btn_hs" />
             </form>
           </div>
         </Col>

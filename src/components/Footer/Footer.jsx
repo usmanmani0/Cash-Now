@@ -6,10 +6,10 @@ import CashNowLogo from "../../assets/images/CashNowLogo.png";
 const Footer = () => {
   return (
     <Container className="footer_container" fluid>
-      <Container >
-        <Row className="footer_pri_r1">
+      <Container className="footer_inner_container">
+        <Row className="footer_pri_r1 ">
           <Col lg={12} className="mv_footer_r1" >
-            <span className="privacy_footer_txt">Privacy</span>
+            <span className="privacy_footer_txt ">Privacy</span>
           </Col>
         </Row>
         <Row>

@@ -18,16 +18,19 @@
   font-size: 25px;
   padding-left: 30px;
   padding-top: 30px;
+  font-weight: bold;
 }
 .pageThree_card_2_heading {
   font-size: 25px;
   padding-left: 30px;
   padding-top: 30px;
+  font-weight: bold;
 }
 .pageThree_card_3_heading {
   font-size: 25px;
   padding-left: 36px;
   padding-top: 30px;
+  font-weight: bold;
 }
 
 .pageThree_card_1_para_txt {
@@ -56,6 +59,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px 20px;
+    margin-bottom: 20px;
   }
 
   .pg_three_tt {
@@ -86,5 +90,51 @@
   .pageThree_card_1_para_txt {
     font-size: 16px;
     text-align: left;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px){
+  .pageThree_card_1 {
+    width: 100%;
+    height: 543px;
+    background-color: #e1e8f3;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .small_d_view{
+   margin: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .pageThree_card_1 {
+    width: 100%;
+    height: 543px;
+    background-color: #e1e8f3;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .small_d_view{
+   margin: auto;
+  }
+  .sold_center_respon{
+    margin-left: 11rem;
+   }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+  .pageThree_card_1 {
+    width: 100%;
+    height: 543px;
+    background-color: #e1e8f3;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .small_d_view{
+   margin: auto;
+  }
+  .sold_center_respon{
+   margin-left: 15rem;
   }
 }

@@ -28,8 +28,8 @@ const WebPageThree = () => {
         </Col>
       </Row>
 
-      <Row className="pageThree_cards_wrapper">
-        <Col>
+      <Row className="pageThree_cards_wrapper small_d_view">
+        <Col xs={12}  sm={12} md={6} lg={6} xl={4}>
           <div className="pageThree_card_1">
             <Image className="pthree_ib_img" src={InboxIcon} rounded />
             <h3 className="pageThree_card_1_heading">
@@ -46,7 +46,7 @@ const WebPageThree = () => {
             </p>
           </div>
         </Col>
-        <Col>
+        <Col xs={12}  sm={12} md={6} lg={6} xl={4}>
           <div className="pageThree_card_1">
             <Image className="pthree_ib_img" src={handIcon} rounded />
             <h3 className="pageThree_card_2_heading">
@@ -58,8 +58,8 @@ const WebPageThree = () => {
             </p>
           </div>
         </Col>
-        <Col>
-          <div className="pageThree_card_1">
+        <Col xs={12}  sm={12} md={6} lg={6} xl={4}>
+          <div className="pageThree_card_1 sold_center_respon">
             <Image className="pthree_ib_img" src={SoldIcon} rounded />
             <h3 className="pageThree_card_3_heading">Stap 3 - verkocht.</h3>
             <p className="pageThree_card_1_para_txt">

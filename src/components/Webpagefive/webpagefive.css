@@ -10,6 +10,7 @@
   font-size: 30px;
   text-align: right;
   padding-right: 38px;
+  font-weight: bold;
 }
 .hs_search_form_wrapper_pg_five {
   height: 363px;
@@ -36,7 +37,13 @@
   padding-left: 0.5rem;
   margin-left: 12rem;
 }
-
+.form_title_txt{
+  font-weight: bold;
+  font-size: 40px;
+}
+.sb_btn_hs{
+  padding-left: 30px ;
+}
 @media only screen and (min-width: 300px) and (max-width: 600px) {
   .pg_five_img_para_wrapper {
     display: flex;
