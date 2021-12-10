@@ -21,6 +21,7 @@
   font-size: 35px;
   color: #ffffff;
   text-align: left;
+  font-weight: bold;
 }
 
 .hr_line_pageT {
@@ -63,6 +64,7 @@
 }
 .pageT_paragraph_txt_2{
   font-size: 30px;
+  font-weight: bold;
 }
 
 .pageT_paragraph_txt_2_imp{

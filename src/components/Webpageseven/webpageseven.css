@@ -67,8 +67,8 @@
     font-weight: bold;
 }
 .pg7loc_detail{
-    font-size: 10px;
-    font-style: Light italic;
+    font-size: 20px;
+    font-style:  italic;
 }
 
 
@@ -79,27 +79,27 @@
         text-align: center;
     }
     .PagesevenImg1{
-        height: 260px;
-        width: 350px;  
+        height: auto;
+        width: 100%;  
     }
     .PagesevenImg2{
-        height: 260px;
-        width: 350px; 
+        height: auto;
+        width: 100%; 
         margin-top: 20px; 
   }
   .PagesevenImg3{
-    height: 260px;
-    width: 350px; 
+    height: auto;
+    width: 100%; 
       margin-top: 20px; 
   }
   .PagesevenImg4{
-    height: 260px;
-    width: 350px; 
+    height: auto;
+    width: 100%;  
     margin-top: 20px; 
   }
   .PagesevenImg5{
-    height: 260px;
-    width: 350px; 
+    height: auto;
+    width: 100%; 
       margin-top: 20px;  
   }
   .pg7location_div{
@@ -125,6 +125,13 @@
        
         margin-top: 50px;
     }
+    .PagesevenImg1{
+        margin-bottom: 20px; 
+    }
+    .PagesevenImg4{
+        
+        margin-top: 20px; 
+      }
     
 }
 @media only screen and (min-width: 992px) and (max-width:1200px){
@@ -140,6 +147,12 @@
     }
 }
 @media only screen and (min-width: 1400px) and (max-width:1900px) {
+    .PagesevenImg1{
+        height: 430px;
+        width: 100%;  
+    }
+}
+@media only screen and (min-width: 1900px) and (max-width:3000px) {
     .PagesevenImg1{
         height: 430px;
         width: 100%;  

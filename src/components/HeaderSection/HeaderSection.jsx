@@ -37,7 +37,7 @@ const HeaderSection = () => {
         <Row>
           <Col lg={6} xs={12}>
             <div className="hs_search_form_wrapper1">
-              <p>Ontvang een koopvoorstel</p>
+              <p className="form_title_txt_hs">Ontvang een koopvoorstel</p>
 
               <form  className="inpt_form_hs">
                 <div className="input_group">

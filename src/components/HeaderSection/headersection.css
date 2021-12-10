@@ -81,10 +81,10 @@
   align-items: center;
 }
 .input_group {
-  width: 380px;
+  width: 450px;
   height: 78px;
   display: flex;
-  gap: 1rem;
+  gap: 5rem;
   border: 1px solid gray;
   padding: 1rem 0.5rem;
   background-color: #ffffff;
@@ -100,7 +100,7 @@
 
 .input2 {
   border-left: 2px solid gray;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .input1 {
@@ -137,6 +137,12 @@
 .tick_img{
   height: 38px;
   width: 51px;
+}
+        
+.form_title_txt_hs{
+  font-size: 34px;
+  font-weight: 500;
+
 }
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
@@ -257,6 +263,10 @@
   .tick_img{
     height: 28px;
     width:41px;
+  }
+  .form_title_txt_hs{
+    text-align: center;
+  
   }
   
 }

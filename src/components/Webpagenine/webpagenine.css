@@ -12,7 +12,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  
 }
 .PagenineImg1 {
   width: 300px;
@@ -55,8 +54,8 @@
   object-fit: cover;
 }
 .Pagenineloc {
-  height: auto;
-  width: 100%;
+  height: 60px;
+  width: 45px;
 }
 .pg9location_div {
   display: flex;
@@ -64,7 +63,6 @@
   align-items: center;
   margin-top: 70px;
   margin-left: 30px;
-  
 }
 .pg9loc_desc {
   margin-left: 5px;
@@ -74,11 +72,11 @@
   font-weight: bold;
 }
 .pg9loc_detail {
-  font-size: 10px;
-  font-style: Light italic;
+  font-size: 20px;
+  font-style: italic;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .nine-section {
     margin-top: 200px;
     display: flex;
@@ -106,7 +104,6 @@
     z-index: 5;
     width: 250px;
     height: 200px;
-  
   }
 
   .PagenineImg3 {
@@ -114,8 +111,7 @@
     height: auto;
     object-fit: cover;
     margin-top: 10rem;
-    margin-left: 5rem;
-    
+    margin-left: 0rem;
   }
   .PagenineImg4 {
     position: absolute;
@@ -126,7 +122,19 @@
     object-fit: cover;
   }
   .pg9location_div {
-  margin-left: 10rem;
+    margin-left: 8rem;
+  }
+  .Pagenineloc {
+    height: auto;
+    width: 100%;
+  }
+  .pg9loc_heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .pg9loc_detail {
+    font-size: 10px;
+    font-style: italic;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 992px) {
@@ -157,7 +165,6 @@
     z-index: 5;
     width: 250px;
     height: 200px;
-  
   }
 
   .PagenineImg3 {
@@ -166,7 +173,6 @@
     object-fit: cover;
     margin-top: 10rem;
     margin-left: 5rem;
-    
   }
   .PagenineImg4 {
     position: absolute;
@@ -177,7 +183,7 @@
     object-fit: cover;
   }
   .pg9location_div {
-  margin-left: 10rem;
+    margin-left: 18rem;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -209,7 +215,6 @@
     z-index: 5;
     width: 250px;
     height: 200px;
-  
   }
 
   .PagenineImg3 {
@@ -218,7 +223,6 @@
     object-fit: cover;
     margin-top: -10rem;
     margin-left: 5rem;
-    
   }
   .PagenineImg4 {
     position: absolute;
@@ -229,14 +233,14 @@
     object-fit: cover;
   }
   .pg9location_div {
-  margin-left: 10rem;
+    margin-left: 13rem;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-  .pg_nine_container{
+  .pg_nine_container {
     margin: 15rem 0px;
-   }
+  }
   .nine-section {
     margin-top: 200px;
     margin-bottom: 100px;
@@ -265,7 +269,6 @@
     z-index: 5;
     width: 270px;
     height: 270px;
-  
   }
 
   .PagenineImg3 {
@@ -274,7 +277,6 @@
     object-fit: cover;
     margin-top: -8rem;
     margin-left: 5rem;
-    
   }
   .PagenineImg4 {
     position: absolute;
@@ -285,14 +287,14 @@
     object-fit: cover;
   }
   .pg9location_div {
-  margin-left: 4rem;
+    margin-left: 5rem;
   }
 }
 
-@media only screen and (min-width: 1400px) and (max-width: 1900px){
-  .pg_nine_container{
+@media only screen and (min-width: 1400px) and (max-width: 1900px) {
+  .pg_nine_container {
     margin: 15rem 0px;
-   }
+  }
   .nine-section {
     margin-top: 200px;
     margin-bottom: 100px;
@@ -321,7 +323,6 @@
     z-index: 5;
     width: 270px;
     height: 270px;
-  
   }
 
   .PagenineImg3 {
@@ -330,7 +331,6 @@
     object-fit: cover;
     margin-top: -8rem;
     margin-left: 5rem;
-    
   }
   .PagenineImg4 {
     position: absolute;
@@ -341,7 +341,60 @@
     object-fit: cover;
   }
   .pg9location_div {
-  margin-right: 2rem;
+    margin-right: 3rem;
   }
 }
 
+@media only screen and (min-width: 1900px) and (max-width: 3000px) {
+  .pg_nine_container {
+    margin: 15rem 0px;
+  }
+  .nine-section {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .img_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+  }
+  .PagenineImg1 {
+    width: 30vw;
+    height: 320px;
+    object-fit: cover;
+  }
+  .PagenineImg2 {
+    position: absolute;
+    bottom: -70%;
+    right: -30%;
+    z-index: 5;
+    width: 270px;
+    height: 270px;
+  }
+
+  .PagenineImg3 {
+    width: 25vw;
+    height: 200px;
+    object-fit: cover;
+    margin-top: -8rem;
+    margin-left: 5rem;
+  }
+  .PagenineImg4 {
+    position: absolute;
+    top: 128px;
+    right: -0px;
+    height: 290px;
+    width: 194px;
+    object-fit: cover;
+  }
+  .pg9location_div {
+    margin-right: 3rem;
+  }
+}

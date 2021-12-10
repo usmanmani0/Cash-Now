@@ -37,12 +37,13 @@
   padding-left: 0.5rem;
   margin-left: 12rem;
 }
-.form_title_txt{
-  font-weight: bold;
+.form_title_txt {
+  font-weight: 500;
   font-size: 40px;
+  padding-bottom: 10px;
 }
-.sb_btn_hs{
-  padding-left: 30px ;
+.sb_btn_hs {
+  padding-left: 30px;
 }
 @media only screen and (min-width: 300px) and (max-width: 600px) {
   .pg_five_img_para_wrapper {
@@ -70,8 +71,11 @@
     text-align: center;
     padding-right: 0px;
   }
-  .pfi_img_dlr{
+  .pfi_img_dlr {
     align-self: center;
+  }
+  .form_title_txt {
+    text-align: center;
   }
 }
 
