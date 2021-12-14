@@ -1,11 +1,11 @@
 import React from "react";
 import "./webpageseven.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import pg7img1 from "../../assets/images/PagesixImg1.png";
-import pg7img2 from "../../assets/images/PageSixImg2.png";
-import pg7img3 from "../../assets/images/PageSixImg3.png";
-import pg7img4 from "../../assets/images/PageSIxImg4.png";
-import pg7img5 from "../../assets/images/PageSixImg5.png";
+import pg7img1 from "../../assets/images/PageSevenImg1.png";
+import pg7img2 from "../../assets/images/PageSevenImg2.png";
+import pg7img3 from "../../assets/images/PageSevenImg3.png";
+import pg7img4 from "../../assets/images/PageSevenImg4.png";
+import pg7img5 from "../../assets/images/pageSevenImg5.png";
 import pg7LocationIcon from "../../assets/images/LocationIcon.png";
 
 const WebPageSeven = () => {
@@ -30,7 +30,7 @@ const WebPageSeven = () => {
                 ></img>
                 <img
                   className="PagesevenImg3"
-                  src={pg7img3}
+                  src={pg7img4}
                   alt="PagesevenImg3"
                 ></img>
               </div>
@@ -39,7 +39,7 @@ const WebPageSeven = () => {
               <div>
                 <img
                   className="PagesevenImg4"
-                  src={pg7img4}
+                  src={pg7img3}
                   alt="PagesevenImg4"
                 ></img>
                 <img

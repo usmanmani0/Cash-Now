@@ -1,10 +1,10 @@
 import React from "react";
 import "./webpagenine.css";
 import { Container } from "react-bootstrap";
-import pg9img1 from "../../assets/images/PagesixImg1.png";
-import pg9img2 from "../../assets/images/PageSixImg2.png";
-import pg9img3 from "../../assets/images/PageSixImg3.png";
-import pg9img4 from "../../assets/images/PageSIxImg4.png";
+import pg9img1 from "../../assets/images/PageNineImg1.png";
+import pg9img2 from "../../assets/images/PageNIneImg3.png";
+import pg9img3 from "../../assets/images/PageNineImg2.png";
+import pg9img4 from "../../assets/images/PageNIneImg4.png";
 import pg9LocationIcon from "../../assets/images/LocationIcon.png";
 
 const WebPageNine = () => {

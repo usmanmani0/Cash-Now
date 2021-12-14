@@ -1,11 +1,11 @@
 import React from "react";
 import "./webpageeight.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import pg8img1 from "../../assets/images/PagesixImg1.png";
-import pg8img2 from "../../assets/images/PageSixImg2.png";
-import pg8img3 from "../../assets/images/PageSixImg3.png";
-import pg8img4 from "../../assets/images/PageSIxImg4.png";
-import pg8img5 from "../../assets/images/PageSIxImg4.png";
+import pg8img1 from "../../assets/images/pageEightImg1.png";
+import pg8img2 from "../../assets/images/pageEightImg2.png";
+import pg8img3 from "../../assets/images/PageEightImg4.png";
+import pg8img4 from "../../assets/images/PageEIghtImg3.png";
+import pg8img5 from "../../assets/images/PageEightImg5.png";
 import pg8LocationIcon from "../../assets/images/LocationIcon.png";
 
 const WebPageEight = () => {

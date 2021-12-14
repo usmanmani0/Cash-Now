@@ -44,7 +44,7 @@ const WebPageSix = () => {
                 ></img>
                 <img
                   className="PagesixImg3"
-                  src={pg6img3}
+                  src={pg6img4}
                   alt="PagesixImg3"
                 ></img>
               </div>
@@ -53,7 +53,7 @@ const WebPageSix = () => {
               <div>
                 <img
                   className="PagesixImg4"
-                  src={pg6img4}
+                  src={pg6img3}
                   alt="PagesixImg4"
                 ></img>
                 <img
