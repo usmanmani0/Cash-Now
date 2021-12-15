@@ -5,7 +5,6 @@ import { Navbar } from "react-bootstrap";
 import Header from "../../Header/Header";
 import NavBar from "../../Navbar/NavBar";
 import Footer from "../../Footer/Footer";
-import "../Step2/step2.css";
 import { Link } from "react-router-dom"
 
 const Step2 = () => {
