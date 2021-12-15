@@ -3,8 +3,9 @@ import webpagefive from "./webpagefive.css";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import DollorIcon from "../../assets/images/DollorIcon.png";
 import LoopIcon from "../../assets/images/LoopIcon.png";
+import { Link } from "react-router-dom";
 
-const WebPageFive = () => {
+const WebPageFive = (props) => {
   return (
     <Container className="pg_five_container">
       <Row>
@@ -72,7 +73,10 @@ const WebPageFive = () => {
                 ></input>
               </div>
 
-              <input value="Ontvang een bod >>" className="sb_btn_hs" />
+              <Link to="/step2">
+                {" "}
+                <button className="sb_btn_hs">{props.buttontext}</button>{" "}
+              </Link>
             </form>
           </div>
         </Col>

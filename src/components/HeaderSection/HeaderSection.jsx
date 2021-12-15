@@ -4,8 +4,9 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import Coins from "../../assets/images/Coins.png";
 import HomeLoop from "../../assets/images/HomeLoop.png";
 import YesTick from "../../assets/images/YesTick.png";
+import { Link } from "react-router-dom";
 
-const HeaderSection = () => {
+const HeaderSection = (props) => {
   return (
     <>
       <Container className="headersection_container" fluid>
@@ -39,27 +40,26 @@ const HeaderSection = () => {
             <div className="hs_search_form_wrapper1">
               <p className="form_title_txt_hs">Ontvang een koopvoorstel</p>
 
-              <form  className="inpt_form_hs">
+              <form className="inpt_form_hs">
                 <div className="input_group">
                   <input
                     type="text"
-                  
                     className="input1"
                     placeholder="Straat"
                   ></input>
                   <input
                     type="text"
-                 
                     className="input2"
                     placeholder="Postcode, Stad"
                   ></input>
                 </div>
 
-                <input
-          
-                  value="Ontvang een bod >>"
-                  className="sb_btn_hs"
-                />
+                <Link to="/step2">
+                  {" "}
+                  <button className="sb_btn_hs">
+                    {props.buttontext}{" "}
+                  </button>{" "}
+                </Link>
               </form>
             </div>
           </Col>
@@ -67,10 +67,6 @@ const HeaderSection = () => {
             <div className="hs_search_form_wrapper2">
               <h3 className="title_txt_hs">Wij kopen zelf:</h3>
               <div className="tick">
-                <Image className="tick_img"  src={YesTick} rounded />
-                <h3 className="items_txt_hs">Bod binnen 24 uur</h3>
-              </div>
-              <div className="tick">
                 <Image className="tick_img" src={YesTick} rounded />
                 <h3 className="items_txt_hs">Bod binnen 24 uur</h3>
               </div>
@@ -82,7 +78,10 @@ const HeaderSection = () => {
                 <Image className="tick_img" src={YesTick} rounded />
                 <h3 className="items_txt_hs">Bod binnen 24 uur</h3>
               </div>
-              
+              <div className="tick">
+                <Image className="tick_img" src={YesTick} rounded />
+                <h3 className="items_txt_hs">Bod binnen 24 uur</h3>
+              </div>
             </div>
           </Col>
         </Row>

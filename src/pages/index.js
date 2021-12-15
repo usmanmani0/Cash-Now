@@ -15,18 +15,16 @@ import Footer from "../components/Footer/Footer";
 function Home() {
   return (
     <>
-
-      <HeaderSection />
+      <HeaderSection buttontext=" Ontvang een bod >>" />
       <WebPageTwo />
       <WebPageThree />
       <WebPageFour />
-      <WebPageFive />
+      <WebPageFive buttontext=" Ontvang een bod >>" />
       <WebPageSix />
       <WebPageSeven />
       <WebPageEight />
       <WebPageNine />
       <WebPageTen />
- 
     </>
   );
 }

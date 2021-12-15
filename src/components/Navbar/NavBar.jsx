@@ -9,7 +9,10 @@ const Navbar = () => {
       <Container>
         <Row>
           <Col lg={5} className="navbar_items">
-            <Link to="/step2" className="navbar_txt"> <span className="navbar_txt">Huizen</span></Link>
+            <Link to="/step2" className="navbar_txt">
+              {" "}
+              <span className="navbar_txt">Huizen</span>
+            </Link>
             <span className="navbar_txt">Appartementen</span>
             <span className="navbar_txt">Gronden</span>
           </Col>
